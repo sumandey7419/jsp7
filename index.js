@@ -49,10 +49,10 @@ document.write(notprime+"<br><br>")
 // Function #5: Map
 
 const arr3 = [11, 34, 20, 5, 53, 16];
-let a=arr3.map((value,index,Array)=>{
+let b=arr3.map((value,index,Array)=>{
     return value*value
 })
-document.write(a+"<br>")
+document.write(b+"<br>")
 
 
 // Function #6: Reduce
