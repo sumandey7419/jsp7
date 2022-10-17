@@ -2,7 +2,7 @@
 
 const foods = ['pizza', 'burger', 'fingerChips', 'donuts', 'springRoll'];
 let modifiedFood=foods.slice(1,4)
-console.log(modifiedFood)
+document.write(modifiedFood+"<br>")
 
 
 
@@ -10,7 +10,7 @@ console.log(modifiedFood)
 
 const foods1 = ["pizza", "burger", "fingerchips", "donuts", "springroll"]
 foods1.splice(2, 0, "apple", "banana");
-console.log(foods1);
+document.write(foods1+"<br>");
 
 
 // Function #3: Filter
@@ -21,7 +21,7 @@ let a=arr.filter((value)=>{
     if(value%2==0)
     return value;
 })
-console.log(a)
+document.write(a+"<br>")
 
 
 
@@ -52,7 +52,7 @@ const arr = [11, 34, 20, 5, 53, 16];
 let a=arr.map((value,index,Array)=>{
     return value*value
 })
-console.log(a)
+document.write(a+"<br>")
 
 
 // Function #6: Reduce
@@ -61,4 +61,4 @@ let arr=[2,3,5,10]
 let ans=arr.reduce((x,y)=>{
     return x*y
 })
-console.log(ans)
+document.write(ans)
