@@ -16,8 +16,8 @@ document.write(foods1+"<br>");
 // Function #3: Filter
 
 
-const arr= [12,324,213,4,2,3,45,4234];
-let a=arr.filter((value)=>{
+const arr7= [12,324,213,4,2,3,45,4234];
+let a=arr7.filter((value)=>{
     if(value%2==0)
     return value;
 })
